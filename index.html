@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Poppin font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@100;200;300;400;600&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        yellow: "#FECC02",
+                        black: "#131313",
+                        gray: "#4E4E4E",
+                        royalBlue: '#264373',
+                        lightBlue: '#6765F0',
+                        silk: '#d9dbec',
+
+
+                    },
+                    fontFamily: {
+                        bebas: ["Bebas Neue", "cursive"],
+                        montserrat: ["Montserrat", "sans-serif"],
+                        Poppin: ['Poppins', 'sans - serif'],
+                    },
+                },
+            },
+        };
+    </script>
+    <title>Motor Bike</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <section class="px-5 py-20 bg-gray">
+        <div class="w-full mx-auto mb-10 max-w-7xl">
+            <h2 class="text-white font-bebas">Bike BD</h2>
+            <div class="flex items-center justify-between">
+                <h1 class="text-white text-7xl font-bebas">Our Bike collection</h1>
+                <button
+                    class="px-3 py-2 text-lg text-white transition-all border-2 border-white font-bebas hover:bg-yellow hover:border-yellow hover:text-black">
+                    Discover more
+                </button>
+            </div>
+        </div>
+        <div class="grid w-full gap-5 mx-auto md:grid-cols-1 lg:grid-cols-2
+        xl:grid-cols-3 
+        max-w-7xl">
+
+            <!-- <div class="border-2 border-white h-[500px] md:h-[250px] lg:h-[400px] p-5">
+                <div
+                    class="group transition-all bg-[url('./images/R15.png')] h-full w-full bg-cover flex justify-center items-start">
+                    <h1 class="hidden text-4xl text-red-500 font-bebas group-hover:block">
+                        Inception
+                    </h1>
+                </div>
+            </div> -->
+
+            <!-- <div class="  border-2 border-white h-[700px] md:h-[550px] lg:h-[400px] p-5">
+                <div class="bg-[url('./images/Kawasaki.png')] flex justify-center items-end h-full w-full bg-cover">
+                    <h1 class="hidden text-4xl text-red-500 font-bebas group-hover:block">
+                        Inception
+                    </h1>
+                    <button
+                        class=" drop-shadow-lg m-2 w-96 py-1  text-lg  text-black transition-all border-2 border-white font-bebas hover:bg-silk hover:border-blue-400 hover:text-black">
+                        565000 Taka
+                    </button>
+                </div>
+            </div> -->
+
+
+            <div class="  border-2 border-white h-[700px] md:h-[550px] lg:h-[400px] p-5">
+                <div
+                    class="bg-[url('./images/Kawasaki.png')] flex flex-wrap justify-center items-end h-full w-full bg-cover">
+                    <button
+                        class=" drop-shadow-lg m-2 w-96 rounded-md  text-xl bg-slate-100 text-black transition-all border-2 border-white font-bebas hover:bg-silk hover:border-blue-400 hover:text-black">
+                        Buy Now
+                    </button>
+                    <button
+                        class=" drop-shadow-lg m-2 w-96   text-xl bg-slate-100 text-black transition-all border-2 border-white font-bebas hover:bg-white hover:text- hover:border-blue-400 hover:text-black fontSizeProperty ">
+                        678900 Taka
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="  border-2 border-white h-[700px] md:h-[550px] lg:h-[400px] p-5">
+                <div class="bg-[url('./images/BMW.png')] flex justify-center items-end h-full w-full bg-cover">
+                    <button
+                        class=" drop-shadow-lg m-2 w-96 rounded-md  text-xl bg-slate-100 text-black transition-all border-2 border-white font-bebas hover:bg-silk hover:border-blue-400 hover:text-black">
+                        Buy Now
+                    </button>
+                    <button
+                        class=" drop-shadow-lg m-2 w-96   text-xl bg-slate-100 text-black transition-all border-2 border-white font-bebas hover:bg-white hover:text- hover:border-blue-400 hover:text-black fontSizeProperty ">
+                        678900 Taka
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="  border-2 border-white h-[700px] md:h-[550px] lg:h-[400px] p-5">
+                <div class="bg-[url('./images/R15.png')] flex justify-center items-end h-full w-full bg-cover">
+                    <button
+                        class=" drop-shadow-lg m-2 w-96 rounded-md  text-xl bg-slate-100 text-black transition-all border-2 border-white font-bebas hover:bg-silk hover:border-blue-400 hover:text-black">
+                        Buy Now
+                    </button>
+                    <button
+                        class=" drop-shadow-lg m-2 w-96   text-xl bg-slate-100 text-black transition-all border-2 border-white font-bebas hover:bg-white hover:text- hover:border-blue-400 hover:text-black fontSizeProperty ">
+                        678900 Taka
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="  border-2 border-white h-[700px] md:h-[550px] lg:h-[400px] p-5">
+                <div class="bg-[url('./images/Apache.png')] flex justify-center items-end h-full w-full bg-cover">
+                    <button
+                        class=" drop-shadow-lg m-2 w-96 rounded-md  text-xl bg-slate-100 text-black transition-all border-2 border-white font-bebas hover:bg-silk hover:border-blue-400 hover:text-black">
+                        Buy Now
+                    </button>
+                    <button
+                        class=" drop-shadow-lg m-2 w-96   text-xl bg-slate-100 text-black transition-all border-2 border-white font-bebas hover:bg-white hover:text- hover:border-blue-400 hover:text-black fontSizeProperty ">
+                        678900 Taka
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="  border-2 border-white h-[700px] md:h-[550px] lg:h-[400px] p-5">
+                <div class="bg-[url('./images/KTM.png')] flex justify-center items-end h-full w-full bg-cover">
+                    <button
+                        class=" drop-shadow-lg m-2 w-96 rounded-md  text-xl bg-slate-100 text-black transition-all border-2 border-white font-bebas hover:bg-silk hover:border-blue-400 hover:text-black">
+                        Buy Now
+                    </button>
+                    <button
+                        class=" drop-shadow-lg m-2 w-96   text-xl bg-slate-100 text-black transition-all border-2 border-white font-bebas hover:bg-white hover:text- hover:border-blue-400 hover:text-black fontSizeProperty ">
+                        678900 Taka
+                    </button>
+
+                </div>
+            </div>
+
+            <div class="  border-2 border-white h-[700px] md:h-[550px] lg:h-[400px] p-5">
+                <div class="bg-[url('./images/fazer.png')] flex justify-center items-end h-full w-full bg-cover">
+                    <button
+                        class=" drop-shadow-lg m-2 w-96 rounded-md  text-xl bg-slate-100 text-black transition-all border-2 border-white font-bebas hover:bg-silk hover:border-blue-400 hover:text-black">
+                        Buy Now
+                    </button>
+                    <button
+                        class=" drop-shadow-lg m-2 w-96   text-xl bg-slate-100 text-black transition-all border-2 border-white font-bebas hover:bg-white hover:text- hover:border-blue-400 hover:text-black fontSizeProperty ">
+                        678900 Taka
+                    </button>
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </section>
+    <section class="bg-black w-full">
+        <p class="text-white text-center p-5">
+            All right reserve to Mujahidul Islam</p>
+
+    </section>
+
+</body>
+
+</html>
